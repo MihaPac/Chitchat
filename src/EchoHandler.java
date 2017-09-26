@@ -6,6 +6,7 @@ import java.net.Socket;
 
 public class EchoHandler extends Thread {
 	private Socket client;
+	private ChatFrame frame;
 	
 	public EchoHandler(Socket socket) {
 		this.client = socket;
